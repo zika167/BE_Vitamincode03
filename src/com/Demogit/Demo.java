@@ -18,7 +18,7 @@ public class Demo {
          * STAGING AREA: là một khu vực trung gian nơi bạn có thể chuẩn bị (stage) những thay đổi trước khi commit vào repository.
          * LOCAL REPOSITORY:
          *
-         *
+         *git rm --cache .idea/misc.xml: xóa file khỏi commit sau khi bỏ file vào gitignore
          *
          *
          *
