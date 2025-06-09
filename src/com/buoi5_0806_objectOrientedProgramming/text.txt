@@ -1,0 +1,1 @@
+Xóa các branch đã tạo trước đó: Branch_ArayList và BE001_Thai
