@@ -20,19 +20,6 @@ public class SinhVienService {
         } while (true);
     }
     SinhVien inputDataSinhVien() {
-// Cách 01
-//        System.out.println("------ ");
-//        System.out.print("Mã Sinh Viên = ");
-//        String id = sc.nextLine();
-//        System.out.print("Tên Sinh Viên = ");
-//        String fullName = sc.nextLine();
-//        System.out.print("Giới Tính = ");
-//        String gender = sc.nextLine();
-//        System.out.print("Chuyên Ngành = ");
-//        String major = sc.nextLine();
-//        System.out.println("------ ");
-//        return new SinhVien(id, fullName, gender, major);
-// Cách 02
             System.out.println("------ ");
             System.out.print("Mã Sinh Viên = ");
             String id = sc.nextLine();
@@ -56,5 +43,22 @@ public class SinhVienService {
         listStudent.forEach(e ->{
             e.outputData();
         });
+    }
+
+    public void phanLoaiSinhVien() {
+        System.out.println("=== Danh sách sinh viên IT ===");
+        listStudent.stream()
+                .filter(sv -> sv.getMajor().equalsIgnoreCase("IT"))
+                .forEach(SinhVien::outputData);
+
+        System.out.println("\n=== Danh sách sinh viên Design ===");
+        listStudent.stream()
+                .filter(sv -> sv.getMajor().equalsIgnoreCase("Design"))
+                .forEach(SinhVien::outputData);
+
+        System.out.println("\n=== Danh sách sinh viên Marketing ===");
+        listStudent.stream()
+                .filter(sv -> sv.getMajor().equalsIgnoreCase("Marketing"))
+                .forEach(SinhVien::outputData);
     }
 }

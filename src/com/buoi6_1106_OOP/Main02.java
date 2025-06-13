@@ -7,5 +7,6 @@ public class Main02 {
         SinhVienService sinhVienService = new SinhVienService();
         sinhVienService.inputListSinhVien();
         sinhVienService.outputDataSinhVien();
+        sinhVienService.phanLoaiSinhVien();
     }
 }
