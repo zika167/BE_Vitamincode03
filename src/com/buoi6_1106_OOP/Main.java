@@ -34,6 +34,7 @@ public class Main {
             if(!choice.equalsIgnoreCase("y")) {
                 break;
             }
+
         } while (true);
 
         for (int e : arr) System.out.println("arr >> " + e);
