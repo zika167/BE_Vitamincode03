@@ -1,3 +1,0 @@
-Kiem tra lai cach nhanh dev va feature hoat dong
-test1 : commit nhanh dev
-test2 : commit nhanh feature
