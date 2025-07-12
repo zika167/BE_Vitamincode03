@@ -1,0 +1,9 @@
+I. Class vs Object
+II. OOP (Object Oriented Programming)
+    *OOP = Properties + Methods
+
+    1. Encapsulation ( tính đóng gói )
+        + key: Access Modifier
+         Public > Protected > Default > Private
+            Private: Get | Set
+

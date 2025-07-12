@@ -1,4 +1,4 @@
-package com.buoi7_0207_Polymorphism;
+package com.buoi7_0207_Polymorphism.lesson;
 
 import com.buoi7_0207_Polymorphism.lesson.service.StudentService;
 

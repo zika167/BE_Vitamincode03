@@ -1,13 +1,13 @@
 package com.buoi7_0207_Polymorphism.exercise.entity;
 
 public final class Staff extends Employee {
+    private final double bonus = 0;
 
-    public Staff(String id, String name, int age, String address, double baseSalary, String position, String departmentId) {
-        super(id, name, age, address, baseSalary, "Staff", departmentId);
+    public Staff(int id, String name, int departmentId) {
+        super(id, name,  departmentId);
     }
 
-    @Override
-    public double calculateSalary() {
-        return super.getBaseSalary();
+    public Staff() {
+
     }
 }
